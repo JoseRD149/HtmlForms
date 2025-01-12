@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>document</title>
+  </head>
+  <body>
+    <h1>GeeksforGeeks Survey Form</h1>
+    <div class="container">
+      <form action="" id="form">
+        <div class="form-control">
+          <div class="form-label">
+            <label for="name">Name</label>
+          </div>
+         <div class="form-input">
+          <input
+            class="input"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+          />
+         </div>
+        </div>
+        <div class="form-control">
+          <div class="form-label">
+            <label for="email">Email</label>
+          </div>
+          <div class="form-input">
+
+          <input
+            class="input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your mail"
+          />
+          </div>
+        </div>
+        <div class="form-control">
+          <div class="form-label">
+            <label for="age">Age</label>
+          </div>
+          <div class="form-input">
+
+          <input
+            class="input"
+            type="number"
+            id="age"
+            name="age"
+            placeholder="Enter your age"
+          />
+          </div>
+        </div>
+        <div class="form-control">
+          <div class="form-label">
+            <label for="description"> Which best option describes you?</label>
+          </div>
+          <div class="form-input">
+
+          <select class="input" id="description">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        </div>
+        <div class="form-control">
+          <div class="form-label">
+            <label for="recommend">Would you recommend this site </label>
+          </div>
+          <div class="form-radio">
+            <input
+              type="radio"
+              id="recommend"
+              name="recommend"
+              value="yes"
+            />Yes
+          </div>
+          <div class="form-radio">
+            <input type="radio" id="recommend" name="recommend" value="no" />No
+          </div>
+          <div class="form-radio">
+            <input
+              type="radio"
+              id="recommend"
+              name="recommend"
+              value="maybe"
+            />Maybe
+          </div>
+        </div>
+        <div class="form-control">
+          <div class="form-label">
+            <label for="language"> Language and Frameworks known</label>
+          </div>
+          <div class="form-radio">
+            <input type="checkbox" id="language" value="c" />C
+          </div>
+          <div class="form-radio">
+            <input type="checkbox" id="language" value="c++" />C++
+          </div>
+          <div class="form-radio">
+            <input type="checkbox" id="language" value="c#" />C#
+          </div>
+          <div class="form-radio">
+            <input type="checkbox" id="language" value="java" />Java
+          </div>
+          <div class="form-radio">
+            <input type="checkbox" id="language" value="python" />Python
+          </div>
+          <div class="form-radio">
+            <input type="checkbox" id="language" value="javascript" />JavaScript
+          </div>
+          <div class="form-radio">
+            <input type="checkbox" id="language" value="react" />React
+          </div>
+          <div class="form-radio">
+            <input type="checkbox" id="language" value="angular" />Angular
+          </div>
+          <div class="form-radio">
+            <input type="checkbox" id="language" value="django" />Django
+          </div>
+          <div class="form-radio">
+            <input type="checkbox" id="language" value="Spring" />Spring
+          </div>
+        </div>
+        <div class="form-control">
+          <div class="form-label">
+            <label for="comment">Any comment or suggestions</label>
+          </div>
+          <textarea class="input" id="comment" rows="4" cols="50"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

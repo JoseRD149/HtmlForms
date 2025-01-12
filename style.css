@@ -1,0 +1,61 @@
+.container {
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px; /* Incrementa un poco el padding para mayor espacio interno */
+  overflow: hidden;
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Efecto de sombra */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 50%;
+    background-color: #0ac840; 
+    font-weight: 300;
+
+  }
+.form-control{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+.form-label{
+  width :100%;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.form-input{
+    width: 100%;
+    margin: 10px 0;
+}
+.input {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  padding: 15px; /* Incrementa el espacio interno */
+  font-size: 1.2rem; /* Aumenta el tamaño de la fuente */
+  border: 1px solid #ccc; /* Borde para mejor visibilidad */
+  border-radius: 5px; /* Bordes redondeados */
+  box-sizing: border-box; /* Incluye padding y border en el ancho total */
+}
+
+textarea.input {
+  resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+button {
+  padding: 15px 20px; /* Más espacio alrededor del texto */
+  font-size: 1.2rem; /* Texto más grande */
+  background-color: #0a9c11; /* Color del botón */
+
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+button:hover {
+  background-color: #055009; /* Color más oscuro al pasar el mouse */
+}
+h1{
+  text-align: center;
+}
