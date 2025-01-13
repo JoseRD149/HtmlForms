@@ -1,10 +1,10 @@
 .container {
   width: 40%;
   margin: 0 auto;
-  padding: 20px; /* Incrementa un poco el padding para mayor espacio interno */
+  padding: 20px; 
   overflow: hidden;
   background-color: #f5f5f5;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Efecto de sombra */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); 
 }
 
 body {
@@ -32,29 +32,29 @@ body {
     margin: 10px 0;
 }
 .input {
-  width: 100%; /* Ocupa todo el ancho disponible */
-  padding: 15px; /* Incrementa el espacio interno */
-  font-size: 1.2rem; /* Aumenta el tamaño de la fuente */
-  border: 1px solid #ccc; /* Borde para mejor visibilidad */
-  border-radius: 5px; /* Bordes redondeados */
-  box-sizing: border-box; /* Incluye padding y border en el ancho total */
+  width: 100%; 
+  padding: 15px; 
+  font-size: 1.2rem; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
 }
 
 textarea.input {
-  resize: vertical; /* Permite redimensionar verticalmente */
+  resize: vertical; 
 }
 
 button {
-  padding: 15px 20px; /* Más espacio alrededor del texto */
-  font-size: 1.2rem; /* Texto más grande */
-  background-color: #0a9c11; /* Color del botón */
+  padding: 15px 20px; 
+  font-size: 1.2rem; 
+  background-color: #0a9c11; 
 
-  cursor: pointer; /* Cambia el cursor al pasar el mouse */
-  width: 100%; /* Ocupa todo el ancho disponible */
+  cursor: pointer;
+  width: 100%; 
 }
 
 button:hover {
-  background-color: #055009; /* Color más oscuro al pasar el mouse */
+  background-color: #055009; 
 }
 h1{
   text-align: center;
